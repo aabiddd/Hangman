@@ -50,8 +50,6 @@ def hangman():
         
         else: 
             print('Invalid Letter!!!')
-        
-        print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
 
     if lives == 0: 
         print(f"You Lost. The Correct Word was {word}")
